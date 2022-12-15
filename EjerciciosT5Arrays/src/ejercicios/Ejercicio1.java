@@ -24,9 +24,7 @@ public class Ejercicio1 {
 		Arrays.fill(num, M);
 		
 		//Mostramos el contenido del array
-		for(int i: num) {
-			System.out.println(i);
-		}
+		System.out.println(Arrays.toString(num));
 		//Cerramos el escaner
 		sc.close();
 	}
